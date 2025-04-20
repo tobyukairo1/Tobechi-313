@@ -47,7 +47,7 @@ C++ Version
 C Version
 
  gcc -std=c99 -Wall -g -c matrix.c -o matrix.o
- gcc -std=c99 -Wall -g matrix.o test_matrix.c -o test_c
+ gcc -std=c99 -Wall -g matrix.o test.c -o test_c
 
  Run
  ./test_c
