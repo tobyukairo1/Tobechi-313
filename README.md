@@ -1,7 +1,7 @@
-Author
+# Author
 Tobechi Ukairo UMBC sophmore 04/19/2025 
 
-Purpose
+# Purpose
 
 Provide basic functions to:
 
@@ -15,7 +15,7 @@ Transpose matrices
 
 We include example programs to test these functions.
 
-Files
+# Files
 
 matrix.hpp, matrix.cpp
 
@@ -41,19 +41,18 @@ C++ Version
  g++ -Wall -g -c matrix.cpp -o matrix.o
  g++ -Wall -g matrix.o test.cpp -o test
 
-# Run
+ Run
  ./test_cpp
 
 C Version
 
-# Compile
  gcc -std=c99 -Wall -g -c matrix.c -o matrix.o
  gcc -std=c99 -Wall -g matrix.o test_matrix.c -o test_c
 
-# Run
+ Run
  ./test_c
 
-Testing
+# Testing
 
 Both test programs compute:
 
