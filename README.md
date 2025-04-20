@@ -25,11 +25,11 @@ matrix.h, matrix.c
 
 C functions for matrix operations following the C99 standard.
 
-test_matrix.cpp
+test.cpp
 
 C++ program that builds and runs a sample matrix calculation.
 
-test_matrix.c
+test.c
 
 C program that does the same sample calculation.
 
